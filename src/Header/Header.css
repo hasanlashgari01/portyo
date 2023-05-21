@@ -1,0 +1,116 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.4rem;
+}
+
+.app-logo {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: conic-gradient(from 180deg at 50% 75.56%, #0252cd 0deg, rgba(2, 82, 205, 0.33) 360deg);
+  border-radius: 100%;
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.app-logo__text {
+  transform: rotate(180deg);
+  color: var(--white-color);
+}
+
+.header-nav {
+  display: none;
+}
+
+.header-nav__list {
+  display: flex;
+  list-style: none;
+  gap: 3.6rem;
+}
+
+.header-nav__link {
+  font-family: "Montserrat-Bold";
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2%;
+  line-height: 14.63px;
+  color: var(--gray-color);
+  transition: 0.5s linear;
+}
+
+.header-nav__link:hover,
+.header-nav__link--active {
+  color: var(--dark-color);
+}
+
+.header-search {
+  display: none;
+  width: 4.5rem;
+  height: 4.5rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(157, 157, 157, 0.21);
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.header-search:hover {
+  background-color: rgba(157, 157, 157, 0.21);
+}
+
+.hamburger {
+  width: 4.5rem;
+  height: 4.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hamburger-line {
+  direction: rtl;
+  position: relative;
+  width: 2.5rem;
+  height: 0.2rem;
+  background-color: var(--dark-color);
+  border-radius: 3rem;
+}
+
+.hamburger-line::before,
+.hamburger-line::after {
+  content: "";
+  position: absolute;
+  height: 0.2rem;
+  background-color: var(--dark-color);
+  border-radius: 3rem;
+}
+
+.hamburger-line::before {
+  top: -8px;
+  width: 3.2rem;
+}
+
+.hamburger-line::after {
+  top: 8px;
+  width: 1.7rem;
+}
+
+/* Media Query */
+
+@media (min-width: 992px) {
+  .header-nav {
+    display: block;
+  }
+
+  .header-search {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}

@@ -12,7 +12,7 @@ function Header() {
             <nav className="header-nav">
               <ul className="header-nav__list">
                 <li className="header-nav__item">
-                  <a href="#" className="header-nav__link">
+                  <a href="#" className="header-nav__link header-nav__link--active">
                     Home
                   </a>
                 </li>
