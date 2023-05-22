@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3.4rem;
+  padding-block: 3.4rem;
 }
 
 .app-logo {
