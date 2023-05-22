@@ -1,0 +1,73 @@
+.project {
+  background-color: #56b0b9;
+  padding: 3.2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.project-title {
+  font-size: 3rem;
+  font-family: "Montserrat-Bold";
+  color: var(--white-color);
+}
+
+.project-box {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  margin-block: 2rem 2.4rem;
+}
+
+.project-box__item {
+  font-family: "Montserrat-Medium";
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--white-color);
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.project-link {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.project-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-right__icon {
+  width: 269.9px;
+}
+
+@media (min-width: 992px) {
+  .project {
+    flex-direction: row;
+  }
+
+  .project-left {
+    padding: 90px 50px;
+  }
+
+  .project-box {
+    margin-bottom: 6rem;
+  }
+
+  .project-right__icon {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-left {
+    padding: 90px 107px;
+  }
+
+  .project-right__icon {
+    width: 494px;
+  }
+}

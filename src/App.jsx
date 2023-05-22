@@ -1,7 +1,8 @@
 import Header from "./Header/Header";
 import Company from "./components/Company";
-import Experience from "./components/Experience";
 import Services from "./components/Services";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Company />
       <Services />
       <Experience />
+      <Projects />
     </>
   );
 }

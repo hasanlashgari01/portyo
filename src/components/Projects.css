@@ -1,0 +1,11 @@
+.projects-items {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+@media (min-width: 1200px) {
+  .projects-items {
+    gap: 4.2rem;
+  }
+}
