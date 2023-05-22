@@ -1,0 +1,61 @@
+.experience {
+  padding-bottom: 10rem;
+}
+
+.experience-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.experience-left {
+  padding: 5.5rem 3.9rem;
+  background-color: var(--dark-color);
+  border-radius: 1.6rem;
+}
+
+.experience-left__title {
+  display: inline-block;
+  font-size: 3.2rem;
+  font-family: "Montserrat-ExtraBold";
+  line-height: 44.8px;
+  color: var(--white-color);
+  max-width: 209.74px;
+}
+
+.experience-left__description {
+  margin-top: 2.4rem;
+  font-size: 1.4rem;
+  font-family: "Montserrat-SemiBold";
+  line-height: 30px;
+  letter-spacing: 3%;
+  color: var(--white-color);
+  opacity: 49%;
+  max-width: 35rem;
+}
+
+.experience-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+@media (min-width: 992px) {
+  .experience {
+    padding-bottom: 16rem;
+  }
+
+  .experience-wrapper {
+    flex-direction: row;
+  }
+
+  .experience-left {
+    max-width: fit-content;
+    padding: 15.2rem 10rem;
+  }
+
+  .experience-right {
+    gap: 3.5rem;
+    width: 50%;
+  }
+}

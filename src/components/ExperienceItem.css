@@ -1,0 +1,42 @@
+.expreience-item {
+  padding: 2.4rem;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  transition: 0.3s ease;
+}
+
+.expreience-item__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
+.expreience-item__icon img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.expreience-item__title {
+  font-family: "Montserrat-Bold";
+  font-size: 2.4rem;
+  line-height: 24px;
+  margin-bottom: 1.4rem;
+}
+
+.expreience-item__description {
+  font-family: "Montserrat-SemiBold";
+  color: var(--gray-color);
+}
+
+@media (min-width: 1200px) {
+  .expreience-item:hover {
+    transform: translateX(30px);
+    border: 1px solid transparent;
+    box-shadow: -25px 47px 66px rgba(0, 0, 0, 0.08);
+  }
+}
