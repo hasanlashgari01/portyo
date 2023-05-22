@@ -1,0 +1,35 @@
+.service {
+  background-color: #f6f6f6;
+  padding: 3.7rem;
+  border-radius: 1.25rem;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 62px;
+  background-color: var(--primary-color);
+  box-shadow: 10px 10px 26px rgba(2, 82, 205, 0.28);
+  border-radius: 10px;
+}
+
+.serivce-title {
+  margin-top: 14.3rem;
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  color: var(--dark-color);
+}
+
+.serivce-caption {
+  margin-top: 2.2rem;
+  font-family: "Montserrat-Medium";
+  width: 28.425rem;
+  font-size: 1.5rem;
+  line-height: 35.22px;
+  color: var(--gray-color);
+}

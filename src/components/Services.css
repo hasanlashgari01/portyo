@@ -1,0 +1,21 @@
+.services {
+  padding-bottom: 10rem;
+}
+
+.services-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+@media (min-wdith: 1200px) {
+  .services {
+    padding-bottom: 16rem;
+  }
+}
+
+@media (min-wdith: 1400px) {
+  .services-items {
+    gap: 3.5rem;
+  }
+}
