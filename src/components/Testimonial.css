@@ -1,0 +1,48 @@
+.testimonial {
+  padding-block: 7.7rem;
+  background-color: #f6f6f6;
+}
+
+.testimonial-description {
+  text-align: center;
+  margin-inline: auto;
+  color: #151e2c;
+  opacity: 50%;
+  font-family: "Montserrat-SemiBold";
+  font-size: 1.4rem;
+  max-width: 36rem;
+  line-height: 30px;
+  margin-top: 3.2rem;
+}
+
+.testimonial-author {
+    margin-inline: auto;
+    text-align: center;
+}
+
+.testimonial-author__profile {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin-top: 3.2rem;
+}
+
+.testimonial-author__name {
+  margin-block: 2.4rem 8px;
+  color: var(--dark-color);
+  font-family: "Montserrat-Bold";
+}
+
+.testimonial-author__job {
+  color: #B9B9B9;
+}
+
+@media (min-width: 992px) {
+  .testimonial-description {
+    max-width: 709px;
+  }
+
+  .testimonial-author__name {
+    margin-block: 2.7rem 8px;
+  }
+}
