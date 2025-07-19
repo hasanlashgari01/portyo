@@ -33,7 +33,7 @@ function HeaderMain() {
         </div>
         <div className="header-right">
           <div className="header-right__wrapper">
-            <img className="header-right__small" src="/public/assets/images/samantha-small.png" alt="" />
+            <img className="header-right__small" src="/assets/images/samantha-small.png" alt="" />
           </div>
         </div>
       </div>
