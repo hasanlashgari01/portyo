@@ -20,13 +20,13 @@ function HeaderMain() {
             </a>
             <div className="header-left__icons">
               <a href="#" className="header-left__icon">
-                <img src="/public/assets/svg/INSTAGRAM.svg" alt="" />
+                <img src="/assets/svg/INSTAGRAM.svg" alt="" />
               </a>
               <a href="#" className="header-left__icon">
-                <img src="/public/assets/svg/DRIBBBLE.svg" alt="" />
+                <img src="/assets/svg/DRIBBBLE.svg" alt="" />
               </a>
               <a href="#" className="header-left__icon">
-                <img src="/public/assets/svg/BEHANCE.svg" alt="" />
+                <img src="/assets/svg/BEHANCE.svg" alt="" />
               </a>
             </div>
           </div>

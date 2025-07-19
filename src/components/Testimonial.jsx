@@ -16,7 +16,7 @@ function Testimonial() {
               mauris. Magnis elit ultricies aliquam adipiscing fames sed.
             </p>
             <div className="testimonial-author">
-                <img className="testimonial-author__profile" src="/public/assets/images/profile.jpg" alt="" />
+                <img className="testimonial-author__profile" src="/assets/images/profile.jpg" alt="" />
                 <h4 className="testimonial-author__name" >Samantha Carlos</h4>
                 <h5 className="testimonial-author__job" >Manager at cyclos</h5>
             </div>

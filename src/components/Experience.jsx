@@ -15,14 +15,14 @@ function Experience() {
               </p>
             </div>
             <div className="experience-right">
-              <ExperienceItem icon="/public/assets/svg/Slack.svg" title="Slack" description="Product Design - 4 Years Experince" />
-              <ExperienceItem icon="/public/assets/svg/Firefox.svg" title="Firefox" description="Sr. UI Design - 4 Years Experince" />
+              <ExperienceItem icon="/assets/svg/Slack.svg" title="Slack" description="Product Design - 4 Years Experince" />
+              <ExperienceItem icon="/assets/svg/Firefox.svg" title="Firefox" description="Sr. UI Design - 4 Years Experince" />
               <ExperienceItem
-                icon="/public/assets/svg/Digital Ocean.svg"
+                icon="/assets/svg/Digital Ocean.svg"
                 title="Digital Ocean"
                 description="UI & Motion Designer - 4 Years Experince"
               />
-              <ExperienceItem icon="/public/assets/svg/Mailchim.svg" title="Mailchim" description="UI Designer - 4 Years Experince" />
+              <ExperienceItem icon="/assets/svg/Mailchim.svg" title="Mailchim" description="UI Designer - 4 Years Experince" />
             </div>
           </div>
         </div>

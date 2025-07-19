@@ -27,7 +27,7 @@ function HeaderTop() {
           </ul>
         </nav>
         <div className="header-search">
-          <img src="/public/assets/svg/search.svg" alt="" />
+          <img src="/assets/svg/search.svg" alt="" />
         </div>
         <div className="hamburger">
           <span className="hamburger-line"></span>
